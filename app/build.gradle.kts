@@ -5,6 +5,10 @@ plugins {
 android {
     namespace = "br.com.apbooster"
     compileSdk = 35
+compileOptions {
+    sourceCompatibility = JavaVersion.VERSION_17
+    targetCompatibility = JavaVersion.VERSION_17
+}
     defaultConfig {
         applicationId = "br.com.apbooster"
         minSdk = 23
